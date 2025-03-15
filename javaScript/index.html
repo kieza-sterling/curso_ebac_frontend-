@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validacao de pontos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>formulario de validação</h1>
+
+        <form id="form-validacao">
+            <input type="number" id="numero-A" required placeholder="campo A">
+            <p class="error-message">
+                o <b>campo A</b> deve ser menor do que o <b>campo B</b>
+            </p>
+            <input type="number" id="numero-B" required placeholder="campo B">
+            <button type="submit" id="enviar">enviar campos</button>
+        </form>
+        <p class="sucess-message"> </p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
