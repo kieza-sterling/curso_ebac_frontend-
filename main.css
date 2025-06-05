@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    background-color: rgba(54, 54, 54, 0.486);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    justify-items: center;
+    max-width: 540px;
+    margin-left: 30%;
+}
+
+#formulario {
+    padding: 20px;
+    justify-items: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 45%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+
+ul{
+    border: 20px;
+    text-decoration:none;
+    list-style: none;
+}
+
+li{
+    color: #fff;
+    font-size: larger;
+    font-family: "Oswald", sans-serif;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
+
+#tarefa {
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgb(51, 10, 88);
+    color: antiquewhite;
+    height: 30px;
+    width: 120px;
+    display: flex;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: rgb(157, 102, 209);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.4s }
